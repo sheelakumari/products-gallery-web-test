@@ -44,7 +44,7 @@ public class SignInTest extends GalleryTestBase {
 		logger.info("Logging into the application.");
 		MainLandingPage landingpage = loginToApp(webApp, driver);
 		waitForPageLoad(driver);
-		//Verify User Name details are displayed after Login
+		//Verify User Name details are displayed after Login ****
 		Assert.assertTrue(landingpage.getHeaderSection().mDisplayName().isDisplayed());
 		logger.info(landingpage.getHeaderSection().mDisplayName().getText());
 	}

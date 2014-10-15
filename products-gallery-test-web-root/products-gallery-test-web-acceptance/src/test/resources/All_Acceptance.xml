@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Full Product Gallery Acceptance Test Suite" verbose="10" preserve-order="true">
+
+  <!--  Runs everything.  No groups are needed. -->
+
+  <test name="Full Product Gallery Acceptance Test">
+ 
+ 	<!-- <groups>
+		    <run>
+		      <include name="unsafe" />
+		    </run>
+ 	</groups> -->
+ 	
+    <packages>
+        <package name="org.familysearch.product.gallery.test.web*" />    
+     </packages>
+    
+      
+ 	
+ 	<!-- <classes>
+    <class name=""/>
+  	</classes> -->
+  	
+  
+  
+     <!--  <classes>
+        <class name="">
+  			<methods>
+  				 Only run some of the methods
+				<include name="" />
+			</methods>    
+      	</class>
+     </classes> -->
+        
+  </test>
+
+</suite>

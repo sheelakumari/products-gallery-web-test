@@ -13,7 +13,7 @@
  	</groups> -->
  	
     <packages>
-        <package name="org.familysearch.product.gallery.test.web*" />    
+        <package name="org.familysearch.products.gallery.test.*" />    
      </packages>
     
       

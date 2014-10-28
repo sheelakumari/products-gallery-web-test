@@ -10,7 +10,8 @@
 	<name>products-gallery-test-web-root</name>
 
 	<modules>
-		<module>products-gallery-test-web-acceptance</module>
+		<module>acceptance</module>
+		<module>framework-root</module>
 	</modules>
 
 	<properties>
